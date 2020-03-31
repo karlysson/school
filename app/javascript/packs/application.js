@@ -5,6 +5,28 @@
 
 require("@rails/ujs").start()
 require("turbolinks").start()
+
+require("jquery/dist/jquery")
+require("jquery-ui")
+require("bootstrap/dist/js/bootstrap")
+require("raphael/raphael")
+require("morris.js/morris")
+require("jquery-sparkline/jquery.sparkline")
+require("jvectormap/jquery-jvectormap")
+require("jquery-knob/dist/jquery.knob")
+require("moment/min/moment")
+require("bootstrap-daterangepicker/daterangepicker")
+require("bootstrap-datepicker/dist/js/bootstrap-datepicker")
+require("bootstrap3-wysihtml5-bower/dist/bootstrap3-wysihtml5.all")
+require("jquery-slimscroll/jquery.slimscroll")
+require("fastclick/lib/fastclick")
+require("admin-lte/dist/js/adminlte.min")
+
+
+require("dashboard")
+require("demo")
+
+
 require("@rails/activestorage").start()
 require("channels")
 
